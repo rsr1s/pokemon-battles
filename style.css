@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.head{
+    padding-bottom: 3%;
+}
+.navbar{
+    padding: 3% 3%;
+}
+.colored{
+    width: 100%;
+    padding: 5% 10%;
+    background-color: gray;
+}
+.white{
+    padding: 5% 10%;
+    width: 100%;
+    background-color: white;
+
+}
+/* title */
+#title ul{
+    position:relative;
+    left: 10%;
+}
+#title img{
+    position: relative;
+    left: 10%;
+    height: 1%;
+    width: 20%;
+    border-radius: 20%;
+    box-shadow: 10px 10px wheat;
+}
+#battle {
+    text-align:center;
+}
+#battle summary{
+    text-align:justify;
+}
+.carousel-item{
+    padding: 10% 20%;
+}
+/* battle */
+
+#battle video{
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(27, 27, 27);
+    
+}
+#battle img{
+    width: 90%;
+    height: 50%;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(27, 27, 27);
+    
+}
+
+#battle summary{
+    padding-top: 12%;
+    cursor:default;
+}
+
+/* Contact */
+#Contact{
+    position:static;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.social-icon{ 
+    position: relative;
+    margin-left: 10%;
+}
+em{
+    position:relative;
+    bottom: -50px;
+    right: 13%;
+
+}
+/* media query */
+@media screen and (max-width:500px){
+    body{
+        font-size: x-large;
+    }
+    #title img{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        left: 30%;
+    }
+    #battle video{
+        width: 100%;
+        height: 50%;
+    }
+    em{position:relative;
+        bottom: -70px;
+        right: 35%;
+
+    }
+    
+}
